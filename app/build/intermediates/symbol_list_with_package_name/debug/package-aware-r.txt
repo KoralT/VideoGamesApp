@@ -2930,6 +2930,8 @@ id matrix
 id message
 id middle
 id mini
+id modalDescription
+id modalTitle
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3311,6 +3313,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout modal_description
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

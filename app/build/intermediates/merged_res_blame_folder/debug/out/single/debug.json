@@ -32,6 +32,10 @@
         "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/inception.jpg"
     },
     {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/layout_modal_description.xml.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/layout/modal_description.xml"
+    },
+    {
         "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
     },

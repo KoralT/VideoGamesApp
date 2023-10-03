@@ -36,6 +36,8 @@ id kgf
 id kirik_party
 id l
 id linearLayout2
+id modalDescription
+id modalTitle
 id movi_title
 id playbtn
 id progressBar3
@@ -49,6 +51,7 @@ id videoProgress
 id videoView
 id vr
 layout activity_main
+layout modal_description
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
