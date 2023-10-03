@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "518968759716",
+    "firebase_url": "https://androidcourseproject-7ac69-default-rtdb.firebaseio.com",
+    "project_id": "androidcourseproject-7ac69",
+    "storage_bucket": "androidcourseproject-7ac69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518968759716:android:921ce540724a7a9c0ddd31",
+        "android_client_info": {
+          "package_name": "com.example.firebasevideostreaming"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOWJjXN0UrpM5Z2po5-8eS9wtOFVxG5gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518968759716:android:615bfb399cf6f4f50ddd31",
+        "android_client_info": {
+          "package_name": "com.hit.moviesSteaming"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOWJjXN0UrpM5Z2po5-8eS9wtOFVxG5gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
