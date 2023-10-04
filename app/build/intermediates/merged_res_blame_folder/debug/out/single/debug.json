@@ -1,91 +1,111 @@
 [
     {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-mdpi/ic_launcher_adaptive_back.png"
+    },
+    {
         "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_vr.jpg.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/vr.jpg"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_supermario.jpg.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/supermario.jpg"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-mdpi_ic_launcher2.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-mdpi/ic_launcher2.webp"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_dangal.jpg.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/dangal.jpg"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xhdpi/ic_launcher_adaptive_fore.png"
     },
     {
         "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_sultan.jpg.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/sultan.jpg"
-    },
-    {
         "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_img_1.png.flat",
         "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/img_1.png"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_inception.jpg.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/inception.jpg"
-    },
-    {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/layout_modal_description.xml.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/layout/modal_description.xml"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_dragonballz.jpg.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/dragonballz.jpg"
     },
     {
         "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_nba.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/nba.png"
+    },
+    {
         "merged": "com.example.firebasevideostreaming.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
         "source": "com.example.firebasevideostreaming.app-main-31:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_interstelar.jpg.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/interstelar.jpg"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher2.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxxhdpi/ic_launcher2.webp"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_kan.jpg.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/kan.jpg"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_mlbtheshow.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/mlbtheshow.png"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_fc24.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/fc24.png"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round2.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxxhdpi/ic_launcher_round2.webp"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_assianscreed.jpg.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/assianscreed.jpg"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-hdpi_ic_launcher_round2.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-hdpi/ic_launcher_round2.webp"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xhdpi_ic_launcher2.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xhdpi/ic_launcher2.webp"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round2.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xhdpi/ic_launcher_round2.webp"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-hdpi/ic_launcher_adaptive_fore.png"
     },
     {
         "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_titanic.jpg.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/titanic.jpg"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-mdpi_ic_launcher_round2.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-mdpi/ic_launcher_round2.webp"
     },
     {
         "merged": "com.example.firebasevideostreaming.app-merged_res-29:/layout_activity_main.xml.flat",
         "source": "com.example.firebasevideostreaming.app-main-31:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_ninjaturtles.jpg.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/ninjaturtles.jpg"
-    },
-    {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_kirik.jpg.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/kirik.jpg"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-mdpi/ic_launcher_adaptive_fore.png"
     },
     {
         "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
@@ -96,39 +116,87 @@
         "source": "com.example.firebasevideostreaming.app-main-31:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_three.jpg.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/three.jpg"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round2.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxhdpi/ic_launcher_round2.webp"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_img.png.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/img.png"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_kgf.png.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/kgf.png"
-    },
-    {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.firebasevideostreaming.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/xml_backup_rules.xml.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_chennai.png.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/chennai.png"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_crashbandicoot.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/crashbandicoot.png"
     },
     {
         "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_tenet.jpg.flat",
-        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/tenet.jpg"
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-hdpi_ic_launcher2.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-hdpi/ic_launcher2.webp"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-hdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/layout_modal_description.xml.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/layout/modal_description.xml"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_ufc.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/ufc.png"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_reddeadredemption.jpg.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/reddeadredemption.jpg"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxhdpi_ic_launcher2.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxhdpi/ic_launcher2.webp"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_img.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/img.png"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.firebasevideostreaming.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_gta.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/gta.png"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_finalfantasy.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/finalfantasy.png"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/drawable-v24_starwars.jpeg.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/drawable-v24/starwars.jpeg"
+    },
+    {
+        "merged": "com.example.firebasevideostreaming.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.firebasevideostreaming.app-main-31:/mipmap-xxhdpi/ic_launcher_adaptive_fore.png"
     }
 ]

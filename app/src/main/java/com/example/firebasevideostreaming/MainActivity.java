@@ -32,23 +32,23 @@ public class MainActivity extends AppCompatActivity {
     private int current=0;
     private int duration=0;
     private TextView mov_title,description;
-    private ImageView tenet;
-    private ImageView interstellar;
-    private ImageView NinjaTurtles;
-    private ImageView dangal;
-    private ImageView sultan;
-    private ImageView chennai;
-    private ImageView three;
-    private ImageView kgf;
-    private ImageView vr;
-    private ImageView kantara;
-    private ImageView kirik;
+    private ImageView crashbandicoot;
+    private ImageView assianscreed;
+    private ImageView supermario;
+    private ImageView reddeadredemption;
+    private ImageView gta;
+    private ImageView starwars;
+    private ImageView finalfantasy;
+    private ImageView nba;
+    private ImageView mlbtheshow;
+    private ImageView fc24;
+    private ImageView ufc;
     ConstraintLayout l;
 
 
     public void run_movie(Uri videouri, String title, String description)
     {
-        Toast.makeText(MainActivity.this,"ENJOY WATCHING "+ title+"!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this,"ENJOY WATCHING "+ title +"!", Toast.LENGTH_SHORT).show();
         bufferprogress.setVisibility(View.VISIBLE);
         new VideoProgress().execute();
         mov_title.setText(title);
@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         dialog.show();
     }
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,76 +94,73 @@ public class MainActivity extends AppCompatActivity {
         currentProgress=findViewById(R.id.videoProgress);
         currentProgress.setMax(100);
         bufferprogress=findViewById(R.id.progressBar3);
-        ImageView inception = findViewById(R.id.inception);
-        tenet=findViewById(R.id.tenet);
-        interstellar=findViewById(R.id.intersteller);
-        NinjaTurtles=findViewById(R.id.NinjaTurtles);
-        dangal=findViewById(R.id.dangal);
-        sultan=findViewById(R.id.sultan);
-        chennai=findViewById(R.id.chennai);
-        three=findViewById(R.id.three_ediots);
-        kgf=findViewById(R.id.kgf);
-        vr=findViewById(R.id.vr);
-        kirik=findViewById(R.id.kirik_party);
-        kantara=findViewById(R.id.kantara);
-        mov_title=findViewById(R.id.movi_title);
+        ImageView dragonballz = findViewById(R.id.dragonballz);
+        crashbandicoot=findViewById(R.id.crashbandicoot);
+        assianscreed=findViewById(R.id.assianscreed);
+        supermario=findViewById(R.id.supermario);
+        reddeadredemption=findViewById(R.id.reddeadredemption);
+        gta=findViewById(R.id.gta);
+        starwars=findViewById(R.id.starwars);
+        finalfantasy=findViewById(R.id.finalfantasy);
+        nba=findViewById(R.id.nba);
+        mlbtheshow=findViewById(R.id.mlbtheshow);
+        ufc=findViewById(R.id.ufc);
+        fc24=findViewById(R.id.fc24);
+        mov_title=findViewById(R.id.movie_title);
         l=findViewById(R.id.l);
         l.setBackgroundColor(Color.WHITE);
         MediaController mc = new MediaController(this);
         mc.setAnchorView(videoView);
         videoView.setMediaController(mc);
-        videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/fir-video-streaming-a6a47.appspot.com/o/file_example_MP4_480_1_5MG.mp4?alt=media&token=e881ce97-a15b-45f5-969d-f622bed41afd");
-        run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
 
-        inception.setOnClickListener(v -> {
-            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/fir-video-streaming-a6a47.appspot.com/o/Y2Mate%5B1%5D.mp4?alt=media&token=10943525-92dc-4545-8836-84b81cb8983e");
-            String mtitle="INCEPTION";
-            run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
+        dragonballz.setOnClickListener(v -> {
+            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Adventure_dragon.mp4?alt=media&token=e4ac860f-a42b-4fa0-bf1c-ef3531479540");
+            run_movie(videouri,"Dragon Ball Z", "Console:  PS4, PS5, Xbox One, Xbox Series S/X, PC, and Nintendo Switch\nRelease year: 2020\nLaunching Company:Bandai Namco Entertainment\n");
 
         });
-        tenet.setOnClickListener(v -> {
-            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/fir-video-streaming-a6a47.appspot.com/o/Y2Mate.is%20-%20TENET%20-%20NEW%20TRAILER-L3pk_TBkihU-480p-1657868329709.mp4?alt=media&token=ef8a29ed-7cc7-4122-aed8-421c14d17d24");
+        crashbandicoot.setOnClickListener(v -> {
+            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Action_Crash_Bandicoot.mp4?alt=media&token=8484e3ef-1cdc-474d-befb-4c7cbd53e0df");
+            run_movie(videouri,"Crash Bandicoot", "Console: PlayStation 4, Xbox One, Windows\nRelease year: 2021\nLaunching Company:Vivendi Games\n");
+        });
+        assianscreed.setOnClickListener(v -> {
+            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Action_Assassins_Creed.mp4?alt=media&token=f05fc748-0879-4e75-8823-7a2fb2db260a");
+            run_movie(videouri,"Assians Creed", "Console: PlayStation 4, Windows, Xbox One, Nintendo Switch, Stadia\nRelease year: 2018\nLaunching Company:Ubisoft\n");
+        });
+        supermario.setOnClickListener(v -> {
+            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Adventure_Super_Mario.mp4?alt=media&token=acb3d04a-143c-45e7-bb65-6898660651ba");
+            run_movie(videouri,"Super Mario", "Console: Nintendo Switch\nRelease year: 2023\nLaunching Company: Nintendo\n");
+        });
+        reddeadredemption.setOnClickListener(v -> {
+            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Action_Red_Dead_Redemption.mp4?alt=media&token=54751e64-7f2a-4cbe-8bdb-52dc1c209e6b");
             run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
         });
-        interstellar.setOnClickListener(v -> {
-            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/fir-video-streaming-a6a47.appspot.com/o/Y2Mate.is%20-%20Interstellar%20-%20Trailer%20-%20Official%20Warner%20Bros.%20UK-zSWdZVtXT7E-480p-1655590373689.mp4?alt=media&token=c03ed3eb-8392-45a5-8ec9-10bff13aec32");
-            run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
+        gta.setOnClickListener(v -> {
+            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Action_Grand_Theft_Auto.mp4?alt=media&token=20cebae4-5736-4102-9868-f6ce479e3278");
+            run_movie(videouri,"GTA", "Console: PlayStation 3, Xbox 360, PlayStation 4, Xbox One, Windows, PlayStation 5, Xbox Series X/S\nRelease year: 2013\nLaunching Company:Rockstar Games\n");
         });
-        NinjaTurtles.setOnClickListener(v -> {
-            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Teenage-Mutant-Ninja-Turtles-2.mp4?alt=media&token=bd148923-6b8d-426c-8c8f-4d1d115365eb");
-            run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
+        starwars.setOnClickListener(v -> {
+            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Adventure_Star_Wars.mp4?alt=media&token=2a0a12e0-f87a-4935-a472-0db074baf87b");
+            run_movie(videouri,"Star Wars", "Console: PlayStation 4, Windows, Xbox One, Stadia, PlayStation 5, Xbox Series X/S\nRelease year: 2020\nLaunching Company:Electronic Arts\n");
         });
-        dangal.setOnClickListener(v -> {
-            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/fir-video-streaming-a6a47.appspot.com/o/Y2Mate.is%20-%20Dangal%20%20Official%20Trailer%20%20Aamir%20Khan%20%20In%20Cinemas%20Dec%2023%2C%202016-x_7YlGv9u1g-480p-1654047960072.mp4?alt=media&token=1a9d1330-3923-4d00-b0f6-0acd463c4704");
-            run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
+        finalfantasy.setOnClickListener(v -> {
+            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Adventure_Final_Fantasy_XVI.mp4?alt=media&token=abdff521-9c4f-452a-bbb2-66678b57d859");
+            run_movie(videouri,"Final Fantasy", "Console: PlayStation 5, Windows\nRelease year: 2023\nLaunching Company:Square Enix\n");
         });
-        sultan.setOnClickListener(v -> {
-            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/fir-video-streaming-a6a47.appspot.com/o/Y2Mate.is%20-%20Sultan%20%20Official%20Trailer%20%20Salman%20Khan%2C%20Anushka%20Sharma%20%20Ali%20Abbas%20Zafar%20%20New%20Movie%20Trailer-wPxqcq6Byq0-480p-1655590739518.mp4?alt=media&token=486585f8-099e-40ef-ac48-dc59b6f3bcfb");
-            run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
+        nba.setOnClickListener(v -> {
+            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Sports_NBA%202K24.mp4?alt=media&token=a22b9461-7492-4baf-862f-f80d05d59ada");
+            run_movie(videouri,"NBA 2K24", "Console: Nintendo Switch, PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S\nRelease year: 2024\nLaunching Company:2K\n");
         });
-        chennai.setOnClickListener(v -> {
-            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/fir-video-streaming-a6a47.appspot.com/o/Y2Mate.is%20-%20Chennai%20Express%20Trailer%20(Official)%20%20ShahRukh%20Khan%2C%20Deepika%20Padukone-rARol7Dk2zo-480p-1655591051947.mp4?alt=media&token=b9eb1a9d-4c68-43b5-9723-735269bb2376");
-            run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
+        mlbtheshow.setOnClickListener(v -> {
+            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Sports_MLB_The_Show.mp4?alt=media&token=ad76acd5-04b3-4246-b507-ff132ddda4b6");
+            run_movie(videouri,"MLB The Show", "Console: PlayStation 4, Xbox One, Windows\nRelease year: 2024\nLaunching Company:San Diego Studio\n");
         });
-        three.setOnClickListener(v -> {
-            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/fir-video-streaming-a6a47.appspot.com/o/Y2Mate.is_-_What_is_a_machine__3_Idiots__Netflix-DKzBmRRdPXo-480p-1655595299167%5B1%5D.mp4?alt=media&token=1b984717-08d3-49fd-b97c-8c6340b3e32a");
-            run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
+        fc24.setOnClickListener(v -> {
+            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Sports_FIFA22.mp4?alt=media&token=fe7796f3-fb2f-4390-b13d-baa00beaf407");
+            run_movie(videouri,"FC 2024", "Console: Nintendo Switch, PlayStation 4, PlayStation 5, Stadia, Windows, Xbox One, Xbox Series X/S\nRelease year: 2024\nLaunching Company:EA Sports\n");
         });
-        kgf.setOnClickListener(v -> {
-            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/fir-video-streaming-a6a47.appspot.com/o/Y2Mate.is%20-%20KGF%20Chapter%202%20TrailerHindiYashSanjay%20DuttRaveena%20TandonSrinidhiPrashanth%20NeelVijay%20Kiragandur-JKa05nyUmuQ-480p-1655591001995.mp4?alt=media&token=c992052b-2dc3-4804-ae4c-b8ef5f9c7d6c");
-            run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
-        });
-        vr.setOnClickListener(v -> {
-            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/fir-video-streaming-a6a47.appspot.com/o/Y2Mate.is%20-%20Vikrant%20Rona%20Official%20Trailer%20%20English%20%20Kichcha%20Sudeep%20%20Anup%20Bhandari%20%20Ajaneesh%20%20Shalini%20Artss-Ylte9v30UcY-480p-1657868906229.mp4?alt=media&token=db8d0ef1-6c7c-4be6-b7eb-a40ed88007c0");
-            run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
-        });
-        kantara.setOnClickListener(v -> {
-            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/fir-video-streaming-a6a47.appspot.com/o/Y2Mate.is%20-%20Kantara%20(Hindi)%20%20Official%20Trailer%20%20Rishab%20Shetty%2C%20Sapthami%20Gowda%2C%20Kishore%20%20Netflix%20India-6oKFao0aISA-480p-1654048534497.mp4?alt=media&token=a7a44348-6a63-44b6-8c22-774ef97ffb19");
-            run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
-        });
-        kirik.setOnClickListener(v -> {
-            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/fir-video-streaming-a6a47.appspot.com/o/Y2Mate.is%20-%20Kirik%20Party%20%20Official%20Trailer%20with%20English%20Subtitles%20-%20Rakshit%20Shetty%20%20Rashmika%20%20Samyuktha-IfvnbER_6sQ-480p-1655591222141.mp4?alt=media&token=36ea03a1-70e6-4857-8670-70555783e720");
-            run_movie(videouri,"Red Dead Redemption", "Category: 'Action'\nConsole: PlayStation 4, Xbox One, Windows\nRelease year: 2018\nLaunching Company:Rockstar Games\n");
+        ufc.setOnClickListener(v -> {
+            videouri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/androidcourseproject-7ac69.appspot.com/o/Sports_UFC_4.mp4?alt=media&token=4b6cdda9-9f6c-40ba-b0bd-c9f0b68c579a");
+            run_movie(videouri,"UFC 2022", "Console: PlayStation 4, Xbox One\nRelease year: 2022\nLaunching Company:EA Sports\n");
         });
 
         isPlaying=true;

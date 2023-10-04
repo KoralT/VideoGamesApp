@@ -8,43 +8,43 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/kantara"
+        android:id="@+id/fc24"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/kgf"
+        app:layout_constraintEnd_toStartOf="@+id/nba"
         app:layout_constraintHorizontal_bias="0.296"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@drawable/kan"
+        app:srcCompat="@drawable/fc24"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/kgf"
+        android:id="@+id/nba"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/kirik_party"
+        app:layout_constraintEnd_toStartOf="@+id/ufc"
         app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@drawable/kgf"
+        app:srcCompat="@drawable/nba"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/kirik_party"
+        android:id="@+id/ufc"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/vr"
+        app:layout_constraintEnd_toStartOf="@+id/mlbtheshow"
         app:layout_constraintHorizontal_bias="0.884"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@drawable/kirik"
+        app:srcCompat="@drawable/ufc"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/vr"
+        android:id="@+id/mlbtheshow"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginTop="8dp"
@@ -52,21 +52,21 @@
         app:layout_constraintHorizontal_bias="0.978"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@drawable/vr"
+        app:srcCompat="@drawable/mlbtheshow"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Adventure"
+        android:text="Sports"
         android:textSize="18sp"
         android:textColor="#692cc9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/three_ediots"
+        app:layout_constraintTop_toBottomOf="@+id/finalfantasy"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -74,13 +74,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Sports"
+        android:text="Action"
         android:textSize="18sp"
         android:textColor="#692cc9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/intersteller" />
+        app:layout_constraintTop_toBottomOf="@+id/assianscreed" />
 
     <VideoView
         android:id="@+id/videoView"
@@ -151,43 +151,43 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/inception"
+        android:id="@+id/dragonballz"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/tenet"
+        app:layout_constraintEnd_toStartOf="@+id/crashbandicoot"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/inception"
+        app:srcCompat="@drawable/dragonballz"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/tenet"
+        android:id="@+id/crashbandicoot"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/intersteller"
+        app:layout_constraintEnd_toStartOf="@+id/assianscreed"
         app:layout_constraintHorizontal_bias="0.816"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/tenet"
+        app:srcCompat="@drawable/crashbandicoot"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/intersteller"
+        android:id="@+id/assianscreed"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/NinjaTurtles"
+        app:layout_constraintEnd_toStartOf="@+id/supermario"
         app:layout_constraintHorizontal_bias="0.909"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/interstelar"
+        app:srcCompat="@drawable/assianscreed"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/NinjaTurtles"
+        android:id="@+id/supermario"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginTop="8dp"
@@ -195,23 +195,23 @@
         app:layout_constraintHorizontal_bias="0.978"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/ninjaturtles"
+        app:srcCompat="@drawable/supermario"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/sultan"
+        android:id="@+id/gta"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginTop="12dp"
-        app:layout_constraintEnd_toStartOf="@+id/three_ediots"
+        app:layout_constraintEnd_toStartOf="@+id/finalfantasy"
         app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:srcCompat="@drawable/sultan"
+        app:srcCompat="@drawable/gta"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/chennai"
+        android:id="@+id/starwars"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginTop="12dp"
@@ -219,35 +219,35 @@
         app:layout_constraintHorizontal_bias="0.978"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:srcCompat="@drawable/chennai"
+        app:srcCompat="@drawable/starwars"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/dangal"
+        android:id="@+id/reddeadredemption"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginTop="12dp"
-        app:layout_constraintEnd_toStartOf="@+id/chennai"
+        app:layout_constraintEnd_toStartOf="@+id/starwars"
         app:layout_constraintHorizontal_bias="0.909"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:srcCompat="@drawable/dangal"
+        app:srcCompat="@drawable/reddeadredemption"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/three_ediots"
+        android:id="@+id/finalfantasy"
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:layout_marginTop="12dp"
-        app:layout_constraintEnd_toStartOf="@+id/dangal"
+        app:layout_constraintEnd_toStartOf="@+id/reddeadredemption"
         app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:srcCompat="@drawable/three"
+        app:srcCompat="@drawable/finalfantasy"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/movi_title"
+        android:id="@+id/movie_title"
         android:layout_width="0dp"
         android:layout_height="27dp"
         android:layout_marginTop="44dp"
@@ -262,12 +262,12 @@
         android:id="@+id/textView4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Action:"
+        android:text="Adventure"
         android:textSize="18sp"
         android:textColor="#692cc9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/movi_title" />
+        app:layout_constraintTop_toBottomOf="@+id/movie_title" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
