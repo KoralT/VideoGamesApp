@@ -1,30 +1,9 @@
-Movies Streaming App
-This is an Android Studio project for a Movies Streaming App built using Java and Firebase. The app allows users to stream movies and videos from a Firebase database. It provides a user-friendly interface for browsing and watching movies.
+Video Games App
+Welcome to our Android Studio app, your gateway to the exciting world of video games! Our app is designed to provide you with comprehensive information about the most famous video games in the industry. Whether you're a dedicated gamer or just curious about the gaming universe, our app has you covered. Explore detailed descriptions, reviews, gameplay videos, and more for all your favorite games. Stay up-to-date with the latest gaming trends and discover new titles to add to your gaming library. We've crafted this app with a passion for gaming, aiming to make it your go-to resource for everything related to video games. Enjoy your gaming journey with our app, and may it enhance your gaming experience to the fullest!
 
-Features:
-
-Play movies with streaming functionality.
-User authentication and account management with Firebase.
-Firebase database to store movie details and streaming links.
-
-Getting Started:
-
-Clone the repository.
-Open the project in Android Studio.
-Set up a Firebase project and enable authentication and database features.
-Connect the app to your Firebase project by adding your Firebase configuration file to the app.
-Build and run the app on an Android emulator or physical device.
+This project is written in Java and uses Firebase DB.
 
 Dependencies:
-
 Firebase Authentication
 Firebase Realtime Database
 Android ExoPlayer
-
-Screenshots:
-
-![WhatsApp Image 2023-08-03 at 20 08 35](https://github.com/manojbinnal/Movie_Streaming_app/assets/109895471/8b511d49-6d98-426d-a6cc-2661ef9b4a12)
-
-![WhatsApp Image 2023-08-03 at 20 08 43](https://github.com/manojbinnal/Movie_Streaming_app/assets/109895471/47271e4c-da67-4130-ba59-790fdcc69986)
-
-
